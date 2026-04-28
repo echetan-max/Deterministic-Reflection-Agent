@@ -34,7 +34,7 @@ Because this project is built as a Static SPA, it requires no backend server, no
 ### Option A: Live Production Link (Recommended)
 You can experience the fully deployed agent here:
 👉 **[https://reflectos.s3.eu-north-1.amazonaws.com/reflectos.html]**
-*(Note: The live deployment automatically fetches the reflection tree CSV in the background.)*
+*(Note: The live deployment automatically fetches the reflection tree tsc,csv any file type and no LLM is used but a delay is added for better Ux.)*
 
 ### Option B: Run Locally
 If you prefer to test the agent locally:
