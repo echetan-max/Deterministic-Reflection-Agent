@@ -1,4 +1,4 @@
-# 🌳 DeepThought OS | Daily Reflection Tree
+# DeepThought OS | Daily Reflection Tree
 
 **A Deterministic, Psychological Reflection Agent** *Built for the DeepThought (DT) Fellowship Assignment (Knowledge Engineer / Business Analyst)*
 
@@ -33,14 +33,14 @@ Because this project is built as a Static SPA, it requires no backend server, no
 
 ### Option A: Live Production Link (Recommended)
 You can experience the fully deployed agent here:
-👉 **[Insert your AWS S3 / GitHub Pages Link Here]**
+👉 **[https://reflectos.s3.eu-north-1.amazonaws.com/reflectos.html]**
 *(Note: The live deployment automatically fetches the reflection tree CSV in the background.)*
 
 ### Option B: Run Locally
 If you prefer to test the agent locally:
 1. Clone this repository to your machine.
 2. Double-click `index.html` to open it in any modern web browser.
-3.A **"Load Ontology"** screen will automatically appear.
+3. A **"Load Ontology"** screen will automatically appear.
 4. Click **Choose Data File** and upload the `reflection-tree-final.csv` (or `.json` / `.tsv`) file included in this repository.
 5. The UI will instantly parse the logic and begin the session.
 
@@ -66,7 +66,7 @@ The "brain" of this agent lives entirely inside `reflection-tree-final.csv`. It 
 
 ```text
 ├── reflection-tree.tsv                   # The core logic engine / data ontology
-├── reflectos.html                        # The Static SPA / Conversational UI Hosted using AWS S3
+├── reflectos.html                        # The Static SPA / Conversational UI, Hosted using AWS S3
 ├── tree_diagram.svg                      # 1:1 Visual architecture diagram
 ├── write-up.md                           # Explanation of design & psychology
 └── /transcripts                          # Markdown files showing example persona sessions
