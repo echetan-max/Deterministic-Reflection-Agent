@@ -27,21 +27,17 @@ The logic tree maps user inputs across three psychological dimensions:
 * **Premium "In-Stream" UI:** Built with Tailwind CSS, the interface features a calming, frictionless conversational flow with intelligent auto-scrolling and clean state management.
 * **Serverless Deployment:** Hosted as a Static Single Page Application (SPA).
 
----
+--- 
 
-## 🚀 How to Run the Agent
-
-Because this project is built as a Static SPA, it requires no backend server, no Python environment, and no API keys. 
-
-### Option A: Live Production Link (Recommended)
+### Live Production Link
 You can experience the fully deployed agent here:
-👉 **[[Insert your AWS S3 / GitHub Pages Link Here](https://reflectos.s3.eu-north-1.amazonaws.com/reflectos.html)]**
+👉 **[[Check your todays work reflection here...](https://reflectos.s3.eu-north-1.amazonaws.com/reflectos.html)]**
 
 ---
 
 ## 🧠 How to Read the Tree (Data Structure)
 
-The "brain" of this agent lives entirely inside `reflection-tree-final.csv`. It acts as a deterministic state machine. To audit the logic, simply open the CSV file. Each row represents a node, guided by these core columns:
+The "brain" of this agent lives entirely inside `reflection-tree-final.csv`. It acts as a deterministic state machine. To audit the logic, simply open the TSC(.tsv) file. Each row represents a node, guided by these core columns:
 
 * **`id` & `parentId`:** The unique identifiers that link the conversation history.
 * **`type`:** Defines the node's behavior:
